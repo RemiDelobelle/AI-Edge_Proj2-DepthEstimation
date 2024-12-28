@@ -6,7 +6,7 @@ import os
 
 # Path to the ONNX model and input image
 # onnx_model_path = 'depth_anything_v2.onnx'
-onnx_model_path = 'depth_anything_quantized_static.onnx'
+onnx_model_path = 'assets/models/depth_anything_quantized_static.onnx'
 output_dir = 'assets/vis_depth'
 image_path = 'assets/examples/demo09.jpg'
 

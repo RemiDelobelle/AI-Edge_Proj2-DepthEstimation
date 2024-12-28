@@ -19,5 +19,5 @@ input_size = 518
 dummy_input = torch.randn(1, 3, input_size, input_size)  # Create a dummy input
 
 # Export model to ONNX format
-onnx_path = './depth_anything_v2.onnx'
+onnx_path = '.assets/models/depth_anything_v2.onnx'
 torch.onnx.export(depth_anything, dummy_input, onnx_path, opset_version=11)
